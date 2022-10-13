@@ -8,6 +8,6 @@ aside{
     border: .125rem dashed yellow;
 }
 
-aside > .col-2{
+aside > .col-lg-2{
     border: 1px dashed orange;
 }

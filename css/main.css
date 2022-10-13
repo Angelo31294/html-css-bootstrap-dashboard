@@ -2,6 +2,13 @@
     MAIN
 -------------------*/
 main{
+    flex-grow: 1;
     border: .125rem dashed green;
     overflow-y: auto;
+}
+
+.ms-boolean{
+    height: 6.875rem;
+    max-width: 100%;
+    background-color: #1c71e8;
 }
