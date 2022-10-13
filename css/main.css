@@ -1,3 +1,7 @@
 /*-------------------
     MAIN
 -------------------*/
+main{
+    border: .125rem dashed green;
+    overflow-y: auto;
+}

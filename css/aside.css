@@ -1,0 +1,13 @@
+/*-------------------
+    ASIDE
+-------------------*/
+aside{
+    max-width: 100%;
+    background-color: #061e34;
+    color: #fff;
+    border: .125rem dashed yellow;
+}
+
+aside > .col-2{
+    border: 1px dashed orange;
+}

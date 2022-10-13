@@ -2,10 +2,9 @@
     HEADER
 -------------------*/
 header{
-    background-color: #f8f9fa;
-    border: .0625rem dashed red;
+    border: .125rem dashed red;
 }
 
 .row > *{
-    border: .0625rem dashed blue;
+    border: .125rem dashed blue;
 }
