@@ -12,3 +12,11 @@ main{
     background-color: #1c71e8;
     color: #fff;
 }
+
+.fa-angles-right{
+    font-size: x-small;
+}
+
+main strong{
+    font-size: 2rem;
+}

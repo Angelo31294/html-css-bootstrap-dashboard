@@ -9,7 +9,3 @@ aside{
     flex-shrink: 0;
     border: .125rem dashed yellow;
 }
-
-aside:last-child{
-    flex-grow: 1;
-}
