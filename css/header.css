@@ -5,6 +5,10 @@ header{
     border: .125rem dashed red;
 }
 
+header img{
+    max-width: 100%;
+}
+
 .row > *{
     border: .125rem dashed blue;
 }
