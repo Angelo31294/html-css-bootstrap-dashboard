@@ -5,10 +5,20 @@ header{
     border: .125rem dashed red;
 }
 
-header img{
+.ms-logo-md{
     max-width: 100%;
+    width: 1.875rem;
 }
 
 .row > *{
     border: .125rem dashed blue;
+}
+
+.form-control, .input-group-text{
+    border: none;
+    background-color: #e9ecef;
+}
+
+.form-control{
+    font-size: .625rem;
 }
