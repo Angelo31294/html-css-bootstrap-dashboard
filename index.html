@@ -26,7 +26,7 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <!-- Logo -->
-                    <div class="col-lg-2 col-1">
+                    <div class="col-lg-2 col-1 ">
                         <img class="d-lg-block d-md-none d-sm-none d-none" src="img/logo.svg" alt="Logo-lg">
                         <img class="d-lg-none .d-md-block ms-logo-md" src="img/mobile-logo.png" alt="Logo-md">
                     </div>
@@ -55,34 +55,22 @@
         <!-- Core Dushboard -->
         <section class="ms-core-container">
             <!-- Aside -->
-            <aside class=" col-lg-2 col-1">
+            <aside class="d-flex flex-column py-3 px-5 ms-slim">
                 <div class="d-flex">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-house"></i>
-                                <span class="d-lg-inline d-none">Home</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-chart-simple"></i>
-                                <span class="d-lg-inline d-none">Stat</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-signal"></i>
-                                <span class="d-lg-inline d-none">Signal</span>
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="pe-1 fs-5"><a href="#"><i class="fa-solid fa-house"></i></a></div>
+                    <div class="ms-not-found fs-5 ms-3 mb-2"><a href="#">Home</a></div>
                 </div>
-                <div class="flex-end">
-                    <a href="#">
-                        <i class="fa-solid fa-gear"></i>
-                        <span class="d-lg-inline d-none">Admin</span>
-                    </a>
+                <div class="d-flex">
+                    <div class="pe-1 fs-5"><a href="#"><i class="fa-solid fa-chart-simple"></i></a></div>
+                    <div class="ms-not-found fs-5 ms-4 mb-2"><a href="#">Stat</a></div>
+                </div>
+                <div class="d-flex flex-grow-1">
+                    <div class="pe-1 fs-5"><a href="#"><i class="fa-solid fa-signal"></i></a></div>
+                    <div class="ms-not-found fs-5 ms-3 mb-2"><a href="#">Signals</a></div>
+                </div>
+                <div class="d-flex">
+                    <div class="pe-1 fs-5"><a href="#"><i class="fa-solid fa-gear"></i></a></div>
+                    <div class="ms-not-found fs-5 ms-3 mb-2"><a href="#">Admin</a></div>
                 </div>
             </aside>
             <!-- /Aside -->

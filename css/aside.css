@@ -2,10 +2,29 @@
     ASIDE
 -------------------*/
 aside{
-    max-width: 9.375rem;
-    width: 100%;
     background-color: #061e34;
+    background-image: url(/img/sidebar-bg.png);
     color: #fff;
     flex-shrink: 0;
     border: .125rem dashed yellow;
+}
+
+aside a{
+    /* font-size: 1.125rem; */
+    color: #fff;
+}
+
+aside img{
+    width: 100%;
+}
+
+@media screen and (max-width:992px) {
+
+    .ms-not-found{
+        display: none;
+    }
+
+    .ms-slim{
+        padding: .625rem .9375rem!important;
+    }
 }
