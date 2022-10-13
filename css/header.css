@@ -5,6 +5,10 @@ header{
     height: 3.75rem;
 }
 
+.ms-logo-lg{
+    margin-left: calc(1 * var(--bs-gutter-x));
+}
+
 .ms-logo-md{
     width: 2.5rem;
 }
