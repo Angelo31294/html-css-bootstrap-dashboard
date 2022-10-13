@@ -20,3 +20,7 @@ main{
 main strong{
     font-size: 2rem;
 }
+
+.text-bg-primary{
+    background-color: #155cbf !important;
+}
