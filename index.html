@@ -22,7 +22,7 @@
     </head>
     <body>
         <!-- Sezione Header -->
-        <header class="py-2">
+        <header class="py-3">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <!-- Logo -->
@@ -55,18 +55,34 @@
         <!-- Core Dushboard -->
         <section class="ms-core-container">
             <!-- Aside -->
-            <aside class="d-flex flex-column px-5">
-                <div class="col-lg-2">
-                    <span>Home</span>
+            <aside class=" col-lg-2 col-1">
+                <div class="d-flex">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-house"></i>
+                                <span class="d-lg-inline d-none">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-chart-simple"></i>
+                                <span class="d-lg-inline d-none">Stat</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-signal"></i>
+                                <span class="d-lg-inline d-none">Signal</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-lg-2">
-                    <span>Stat</span>
-                </div>
-                <div class="col-lg-2 flex-grow-1">
-                    <span>Signal</span>
-                </div>
-                <div class="col-lg-2">
-                    <span>Admin</span>
+                <div class="flex-end">
+                    <a href="#">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="d-lg-inline d-none">Admin</span>
+                    </a>
                 </div>
             </aside>
             <!-- /Aside -->

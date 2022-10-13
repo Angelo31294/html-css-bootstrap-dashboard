@@ -2,12 +2,14 @@
     ASIDE
 -------------------*/
 aside{
-    max-width: 100%;
+    max-width: 9.375rem;
+    width: 100%;
     background-color: #061e34;
     color: #fff;
+    flex-shrink: 0;
     border: .125rem dashed yellow;
 }
 
-aside > .col-lg-2{
-    border: 1px dashed orange;
+aside:last-child{
+    flex-grow: 1;
 }

@@ -1,13 +1,13 @@
 /*-------------------
     HEADER
 -------------------*/
+header{
+    height: 3.75rem;
+}
+
 .ms-logo-md{
     width: 1.875rem;
 }
-
-/* .row > *{
-    border: .125rem dashed blue;
-} */
 
 .form-control, .input-group-text{
     border: none;
