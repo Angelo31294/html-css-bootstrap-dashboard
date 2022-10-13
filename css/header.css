@@ -1,3 +1,12 @@
 /*-------------------
     HEADER
 -------------------*/
+header{
+    height: 5rem;
+    background-color: #f8f9fa;
+    border: .0625rem dashed red;
+}
+
+.row > *{
+    border: .0625rem dashed blue;
+}
