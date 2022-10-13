@@ -1,18 +1,13 @@
 /*-------------------
     HEADER
 -------------------*/
-header{
-    border: .125rem dashed red;
-}
-
 .ms-logo-md{
-    max-width: 100%;
     width: 1.875rem;
 }
 
-.row > *{
+/* .row > *{
     border: .125rem dashed blue;
-}
+} */
 
 .form-control, .input-group-text{
     border: none;
@@ -21,4 +16,15 @@ header{
 
 .form-control{
     font-size: .625rem;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #5a5858;
 }
