@@ -34,7 +34,18 @@ main strong{
     border-bottom: 1px solid lightgrey;
 }
 
-/* debug */
-.debug{
-    border: 2px dashed red;
+th img{
+    max-width: 100%;
+    width: 1.875rem;
+}
+
+.ms-width-auto{
+    width: auto;
+}
+.ms-width-100{
+    width: 6.25rem;
+}
+
+.btn{
+    --bs-btn-padding-x: 0.65rem!important;
 }
