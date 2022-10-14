@@ -42,6 +42,7 @@ th img{
 .ms-width-auto{
     width: auto;
 }
+
 .ms-width-100{
     width: 6.25rem;
 }
@@ -49,3 +50,4 @@ th img{
 .btn{
     --bs-btn-padding-x: 0.65rem!important;
 }
+
