@@ -9,3 +9,9 @@ body{
     height: calc(100vh - 60px);
     display: flex;
 }
+a:hover{
+    color: inherit;
+}
+.fa-chart-simple{
+    font-size: 1.3125rem!important;
+}

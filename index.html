@@ -26,25 +26,37 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <!-- Logo -->
-                    <div class="col-lg-2 col-1 ">
+                    <div class="col-auto">
                         <img class="d-lg-block d-md-none d-sm-none d-none ms-logo-lg" src="img/logo.svg" alt="Logo-lg">
                         <img class="d-lg-none .d-md-block ms-logo-md" src="img/mobile-logo.png" alt="Logo-md">
                     </div>
                     <!-- Barra di Ricerca -->
-                    <div class="col-lg-8 col-10"><div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="addon-wrapping">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </span>
-                        <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Prova a cercare: Lezioni di Laravel" aria-describedby="addon-wrapping">
+                    <div class="col ms-nav-research">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Prova a cercare: Lezioni di Laravel" aria-describedby="addon-wrapping">
                       </div>
                     </div>
                     <!-- Nav -->
-                    <div class="col-lg-2 col-1">
+                    <div class="col-auto ms-nav-bell">
                         <ul class="d-flex justify-content-around align-items-center">
-                            <li><a href="#"><i class="fa-solid fa-list d-lg-block d-none"></i></a></li>
-                            <li><a href="#"><i class="fa-solid fa-circle-question d-lg-block d-none"></i></a></li>
-                            <li><a href="#"><i class="fa-solid fa-ellipsis-vertical d-lg-block d-none"></i></a></li>
-                            <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+                            <li class="pe-2"><a href="#"><i class="fa-solid fa-list d-lg-block d-none"></i></a></li>
+                            <li class="pe-2"><a href="#"><i class="fa-solid fa-circle-question d-lg-block d-none"></i></a></li>
+                            <li class="pe-2"><a href="#"><i class="fa-solid fa-ellipsis-vertical d-lg-block d-none"></i></a></li>
+                            <li class="pe-2">
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-bell"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><button class="dropdown-item" type="button">Profilo</button></li>
+                                      <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                                      <li><button class="dropdown-item" type="button">Logout</button></li>
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
                     </div> 
                 </div>
@@ -62,7 +74,7 @@
                 </div>
                 <div class="d-flex">
                     <div class="pe-1 fs-5"><a href="#"><i class="fa-solid fa-chart-simple"></i></a></div>
-                    <div class="ms-not-found fs-5 ms-4 mb-2"><a href="#">Stat</a></div>
+                    <div class="ms-not-found fs-5 ms-3 mb-2"><a href="#">Stat</a></div>
                 </div>
                 <div class="d-flex flex-grow-1">
                     <div class="pe-1 fs-5"><a href="#"><i class="fa-solid fa-signal"></i></a></div>
