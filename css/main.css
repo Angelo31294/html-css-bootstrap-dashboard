@@ -3,7 +3,6 @@
 -------------------*/
 main{
     flex-grow: 1;
-    border: .125rem dashed green;
     overflow-y: auto;
 }
 

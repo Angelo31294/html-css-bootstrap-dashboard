@@ -6,7 +6,6 @@ aside{
     background-image: url(/img/sidebar-bg.png);
     color: #fff;
     flex-shrink: 0;
-    border: .125rem dashed yellow;
 }
 
 aside a{

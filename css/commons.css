@@ -9,6 +9,9 @@ body{
     height: calc(100vh - 60px);
     display: flex;
 }
+a{
+    text-decoration: none;
+}
 a:hover{
     color: inherit;
 }
