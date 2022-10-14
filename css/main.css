@@ -24,3 +24,18 @@ main strong{
 .text-bg-primary{
     background-color: #155cbf !important;
 }
+
+.ms-container-checkbox{
+    border: 1px solid lightgrey;
+    border-radius: .625rem;
+}
+
+.ms-check-box{
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+/* debug */
+.debug{
+    border: 2px dashed red;
+}
