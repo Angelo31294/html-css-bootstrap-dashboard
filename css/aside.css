@@ -17,6 +17,9 @@ aside img{
     width: 100%;
 }
 
+aside .fa-solid{
+    font-size: 1.25rem;
+}
 @media screen and (max-width:992px) {
 
     .ms-not-found{
@@ -24,6 +27,17 @@ aside img{
     }
 
     .ms-slim{
-        padding: .625rem .9375rem!important;
+        padding: 1.25rem .9375rem!important;
+    }
+
+    .d-flex{
+        justify-content: center;
+        text-align: center;
+        padding-bottom: .625rem;
+        padding-left: .3125rem;
+    }
+
+    .fa-solid{
+        padding-right: 0;
     }
 }
