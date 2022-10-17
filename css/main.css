@@ -16,7 +16,7 @@ main{
     font-size: x-small;
 }
 
-main strong{
+main span{
     font-size: 2rem;
 }
 
@@ -34,6 +34,14 @@ main strong{
     border-bottom: 1px solid lightgrey;
 }
 
+table th:not(:first-child){
+    text-align: center;
+}
+
+table td{
+    text-align: center;
+}
+
 th img{
     max-width: 100%;
     width: 1.875rem;
@@ -47,7 +55,16 @@ th img{
     width: 6.25rem;
 }
 
-.btn{
+.text-bg-warning{
+    color: #fff!important;
+}
+
+td .btn{
     --bs-btn-padding-x: 0.65rem!important;
+}
+
+.ms-box{
+    border: .0625rem solid lightgray;
+    border-radius: .3125rem;
 }
 
