@@ -5,16 +5,20 @@ body{
     background-color: #f8f9fa;
     font-family: 'Roboto', sans-serif;
 }
+
 .ms-core-container{
     height: calc(100vh - 60px);
     display: flex;
 }
+
 a{
     text-decoration: none;
 }
+
 a:hover{
     color: inherit;
 }
+
 .fa-chart-simple{
     font-size: 1.3125rem!important;
 }
